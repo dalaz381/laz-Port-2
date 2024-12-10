@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects</title>
+  <style>
+    body {
+      background-color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .categories {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 30px;
+    }
+
+    .category {
+      width: 45%;
+      text-align: center;
+    }
+
+    .category h2 {
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .gallery img {
+      width: 200px;
+      height: 200px;
+      margin: 10px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .btn {
+      display: block;
+      width: 200px;
+      margin: 50px auto 20px;
+      padding: 10px;
+      background-color: black;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      border-radius: 5px;
+    }
+
+    .btn:hover {
+      background-color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>My Projects</h1>
+
+  <div class="categories">
+    <!-- Graphic Designs Category -->
+    <div class="category">
+      <h2>Graphic Designs</h2>
+      <div class="gallery">
+        <img src="./assets/Pandesal.png" alt="Graphic Design 1">
+        <img src="./assets/BROWN 1.png" alt="Graphic Design 2">
+        <img src="./assets/BRWON 2.png" alt="Graphic Design 3">
+        <img src="./assets/FANTA 1.png" alt="Graphic Design 4">
+        <img src="./assets/FANTA 2.png" alt="Graphic Design 5">
+        <img src="./assets/FANTA 3.png" alt="Graphic Design 6">
+      </div>
+    </div>
+
+    <!-- Digital Arts Category -->
+    <div class="category">
+      <h2>Digital Arts</h2>
+      <div class="gallery">
+        <img src="./assets/Jenny.jpg" alt="Digital Art 1">
+        <img src="./assets/jiso.jpg" alt="Digital Art 2">
+        <img src="./assets/lisa.jpg" alt="Digital Art 3">
+        <img src="./assets/Rose.jpg" alt="Digital Art 4">
+      </div>
+    </div>
+  </div>
+
+  <!-- Back to Index Button -->
+  <a href="index.html" class="btn">Go Back</a>
+
+</body>
+</html>
